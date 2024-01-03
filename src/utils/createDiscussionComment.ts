@@ -1,7 +1,6 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
 
-
 interface UpdateDiscussionParams {
   discussion_number: number
   body?: string
@@ -11,9 +10,8 @@ interface UpdateDiscussionParams {
 export async function createDiscussionComment({
   discussion_number: discussionId,
   body,
-  octokit,
+  octokit
 }: UpdateDiscussionParams) {
-
   const mutation = `mutation($discussionId: ID!, $body: String) {
     addDiscussionComment(input: {discussionId: $discussionId, body: $body}) {
       comment {
@@ -25,7 +23,7 @@ export async function createDiscussionComment({
   await octokit.graphql({
     query: mutation,
     discussionId,
-    body,
+    body
   })
 
   const url = github.context.payload?.discussion?.html_url

@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
-import { createDiscussionComment } from './createDiscussionComment'
+import {createDiscussionComment} from './createDiscussionComment'
 
 interface CreateIssueCommentParameters {
   pull_number?: number
@@ -30,7 +30,7 @@ export async function createIssueComment({
   if (!number) {
     return
   }
-  await octokit.issues.createComment({
+  await octokit.rest.issues.createComment({
     owner,
     repo,
     issue_number: number,

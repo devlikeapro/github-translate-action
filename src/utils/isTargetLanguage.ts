@@ -1,7 +1,10 @@
 import * as core from '@actions/core'
 import franc from 'franc-min'
 
-export function isEnglish(body: string | null): boolean | true {
+export function isTargetLanguage(
+  body: string | null,
+  language = 'eng'
+): boolean | true {
   if (body === null) {
     return true
   }
@@ -15,5 +18,5 @@ export function isEnglish(body: string | null): boolean | true {
     return false
   }
   core.info(`Detect comment body language result is: ${detectResult}`)
-  return detectResult === 'eng'
+  return detectResult === language
 }

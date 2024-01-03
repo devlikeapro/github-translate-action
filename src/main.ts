@@ -16,6 +16,7 @@ async function main(): Promise<void> {
   const shouldAppendContent = core.getInput('APPEND_TRANSLATION')
   const botNote =
     core.getInput('CUSTOM_BOT_NOTE')?.trim() || DEFAULT_BOT_MESSAGE
+  const targetLanguage = core.getInput('TARGET_LANGUAGE') || 'eng'
   // ignore when bot comment issue himself
   const botToken = DEFAULT_BOT_TOKEN
   if (!botToken) {
@@ -36,14 +37,18 @@ async function main(): Promise<void> {
   const originTitle = title?.split(TRANSLATE_TITLE_DIVING)?.[0]
   const originComment = body?.split(TRANSLATE_DIVIDING_LINE)?.[0]
 
-  const translateOrigin = translateText.stringify(originComment, originTitle)
+  const translateOrigin = translateText.stringify(
+    originComment,
+    originTitle,
+    targetLanguage
+  )
   if (!translateOrigin) {
     return
   }
   core.info(`translate origin body is: ${translateOrigin}`)
 
   // translate issue comment body to english
-  const translateTmp = await translate(translateOrigin)
+  const translateTmp = await translate(translateOrigin, targetLanguage)
   if (!translateTmp || translateTmp === translateOrigin) {
     return core.warning('The translateBody is null or same, ignore return.')
   }

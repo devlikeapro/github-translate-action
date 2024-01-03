@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
 import * as github from '@actions/github'
-import { updateDiscussion } from './updateDiscussion'
+import {updateDiscussion} from './updateDiscussion'
 
 interface UpdateIssueParameters {
   discussion_number?: number
@@ -25,7 +25,7 @@ export async function updateIssue({
       comment_id,
       title,
       body,
-      octokit,
+      octokit
     })
   }
 
@@ -33,9 +33,9 @@ export async function updateIssue({
 
   if (issue_number) {
     if (comment_id && body) {
-      await octokit.issues.updateComment({owner, repo, comment_id, body})
+      await octokit.rest.issues.updateComment({owner, repo, comment_id, body})
     } else if (title || body) {
-      await octokit.issues.update({owner, repo, issue_number, title, body})
+      await octokit.rest.issues.update({owner, repo, issue_number, title, body})
     }
   }
 

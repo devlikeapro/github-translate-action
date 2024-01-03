@@ -1,16 +1,19 @@
-name: 'GitHub Translator'
-description: 'Translate non-English GitHub issues and GitHub discussions into English automatically.'
+name: "GitHub Translator"
+description: "Automatically translate non target language GitHub problems and GitHub discussions into the target language."
 branding:
-  icon: 'repeat'
-  color: 'purple'
-author: 'lizheming'
+  icon: "repeat"
+  color: "purple"
+author: "CaoMeiYouRen"
 inputs:
-  IS_MODIFY_TITLE: 
-    description: 'Is need modify issue title, true or false, default false.'
+  IS_MODIFY_TITLE:
+    description: "Is need modify issue title, true or false, default false."
   APPEND_TRANSLATION:
-    description: 'append translation content into issue instead of create new translation issue.'
+    description: "append translation content into issue instead of create new translation issue."
   CUSTOM_BOT_NOTE:
-    description: 'Custom bot note message.'
+    description: "Custom bot note message."
+  TARGET_LANGUAGE:
+    description: "The target language to be translated into, all other languages will be translated. Please use the Language Code of ISO 639-3."
+    # default:
 runs:
-  using: 'node16'
-  main: 'dist/index.js'
+  using: "node16"
+  main: "dist/index.js"
