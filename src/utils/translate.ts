@@ -14,7 +14,7 @@ export async function translate(
   language = 'eng'
 ): Promise<string | undefined> {
   try {
-    const to = langs.where('1', language)?.[1]
+    const to = langs.where('3', language)?.['1']
     const resp = await GoogleTranslate(text, {to: to})
     return resp.text !== text ? resp.text : ''
     // eslint-disable-next-line @typescript-eslint/no-explicit-any

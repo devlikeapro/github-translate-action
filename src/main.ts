@@ -10,7 +10,7 @@ const DEFAULT_BOT_MESSAGE = `Bot detected the issue body's language is not Engli
 const DEFAULT_BOT_TOKEN = process.env.GITHUB_TOKEN
 
 async function main(): Promise<void> {
-  core.info(JSON.stringify(github.context))
+  // core.info(JSON.stringify(github.context))
 
   const isModifyTitle = core.getInput('IS_MODIFY_TITLE')
   const shouldAppendContent = core.getInput('APPEND_TRANSLATION')
