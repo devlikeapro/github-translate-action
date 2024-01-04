@@ -7,5 +7,7 @@ export default defineConfig({
   sourcemap: true,
   clean: true,
   external: [],
+  noExternal: [/(.*)/],
   bundle: true
+  // shims: true
 })
