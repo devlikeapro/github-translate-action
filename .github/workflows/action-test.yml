@@ -1,4 +1,4 @@
-name: "build-test"
+name: "action-test"
 on:
   issues:
     types: [opened, edited]
