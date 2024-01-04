@@ -14,5 +14,5 @@ inputs:
   TARGET_LANGUAGE:
     description: "The target language to be translated into, all other languages will be translated. Please use the Language Code of ISO 639-3(https://iso639-3.sil.org/code_tables/639/data/d)."
 runs:
-  using: "node16"
-  main: "dist/index.js"
+  using: "node20"
+  main: "dist/main.js"
