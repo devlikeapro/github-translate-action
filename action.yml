@@ -1,4 +1,4 @@
-name: "GitHub Translator"
+name: "Custom GitHub Translator"
 description: "Automatically translate non target language GitHub problems and GitHub discussions into the target language."
 branding:
   icon: "repeat"
