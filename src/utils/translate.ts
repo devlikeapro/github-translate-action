@@ -1,21 +1,19 @@
 import * as core from '@actions/core'
 import GoogleTranslate from '@tomsun28/google-translate-api'
 import {isTargetLanguage} from './isTargetLanguage'
-import langs from 'langs/index'
 
 /**
  *
  * @param text
- * @param language ISO 639-3 Language Code
+ * @param language ISO 639-1 Language Code
  * @returns
  */
 export async function translate(
   text: string,
-  language = 'eng'
+  language = 'en'
 ): Promise<string | undefined> {
   try {
-    const to = langs.where('3', language)?.['1']
-    const resp = await GoogleTranslate(text, {to: to})
+    const resp = await GoogleTranslate(text, {to: language})
     return resp.text !== text ? resp.text : ''
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
   } catch (err: any) {

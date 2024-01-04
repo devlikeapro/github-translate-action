@@ -29,3 +29,4 @@ jobs:
           IS_MODIFY_TITLE: true
           APPEND_TRANSLATION: true
           TARGET_LANGUAGE: "cmn"
+          TRANSLATED_LANGUAGE: zh-cn"

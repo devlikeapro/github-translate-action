@@ -32353,252 +32353,6 @@ var require_src5 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/github.com+CaoMeiYouRen+nodejs-langs@1b33191d719ecc58e7a48699639ad24d5b774b66_b6j45bnv2hyo7453y67xdi3qbq/node_modules/langs/data.js
-var require_data2 = __commonJS({
-  "node_modules/.pnpm/github.com+CaoMeiYouRen+nodejs-langs@1b33191d719ecc58e7a48699639ad24d5b774b66_b6j45bnv2hyo7453y67xdi3qbq/node_modules/langs/data.js"(exports2, module2) {
-    "use strict";
-    module2.exports = [
-      { "name": "Abkhaz", "local": "\u0410\u04A7\u0441\u0443\u0430", "1": "ab", "2": "abk", "2T": "abk", "2B": "abk", "3": "abk" },
-      { "name": "Afar", "local": "Afaraf", "1": "aa", "2": "aar", "2T": "aar", "2B": "aar", "3": "aar" },
-      { "name": "Afrikaans", "local": "Afrikaans", "1": "af", "2": "afr", "2T": "afr", "2B": "afr", "3": "afr" },
-      { "name": "Akan", "local": "Akan", "1": "ak", "2": "aka", "2T": "aka", "2B": "aka", "3": "aka" },
-      { "name": "Albanian", "local": "Shqip", "1": "sq", "2": "sqi", "2T": "sqi", "2B": "alb", "3": "sqi" },
-      { "name": "Amharic", "local": "\u12A0\u121B\u122D\u129B", "1": "am", "2": "amh", "2T": "amh", "2B": "amh", "3": "amh" },
-      { "name": "Arabic", "local": "\u0627\u0644\u0639\u0631\u0628\u064A\u0629", "1": "ar", "2": "ara", "2T": "ara", "2B": "ara", "3": "ara" },
-      { "name": "Aragonese", "local": "Aragon\xE9s", "1": "an", "2": "arg", "2T": "arg", "2B": "arg", "3": "arg" },
-      { "name": "Armenian", "local": "\u0540\u0561\u0575\u0565\u0580\u0565\u0576", "1": "hy", "2": "hye", "2T": "hye", "2B": "arm", "3": "hye" },
-      { "name": "Assamese", "local": "\u0985\u09B8\u09AE\u09C0\u09AF\u09BC\u09BE", "1": "as", "2": "asm", "2T": "asm", "2B": "asm", "3": "asm" },
-      { "name": "Avaric", "local": "\u0410\u0432\u0430\u0440", "1": "av", "2": "ava", "2T": "ava", "2B": "ava", "3": "ava" },
-      { "name": "Avestan", "local": "avesta", "1": "ae", "2": "ave", "2T": "ave", "2B": "ave", "3": "ave" },
-      { "name": "Aymara", "local": "Aymar", "1": "ay", "2": "aym", "2T": "aym", "2B": "aym", "3": "aym" },
-      { "name": "Azerbaijani", "local": "Az\u0259rbaycanca", "1": "az", "2": "aze", "2T": "aze", "2B": "aze", "3": "aze" },
-      { "name": "Bambara", "local": "Bamanankan", "1": "bm", "2": "bam", "2T": "bam", "2B": "bam", "3": "bam" },
-      { "name": "Bashkir", "local": "\u0411\u0430\u0448\u04A1\u043E\u0440\u0442\u0441\u0430", "1": "ba", "2": "bak", "2T": "bak", "2B": "bak", "3": "bak" },
-      { "name": "Basque", "local": "Euskara", "1": "eu", "2": "eus", "2T": "eus", "2B": "baq", "3": "eus" },
-      { "name": "Belarusian", "local": "\u0411\u0435\u043B\u0430\u0440\u0443\u0441\u043A\u0430\u044F", "1": "be", "2": "bel", "2T": "bel", "2B": "bel", "3": "bel" },
-      { "name": "Bengali", "local": "\u09AC\u09BE\u0982\u09B2\u09BE", "1": "bn", "2": "ben", "2T": "ben", "2B": "ben", "3": "ben" },
-      { "name": "Bihari", "local": "\u092D\u094B\u091C\u092A\u0941\u0930\u0940", "1": "bh", "2": "bih", "2T": "bih", "2B": "bih", "3": "bih" },
-      { "name": "Bislama", "local": "Bislama", "1": "bi", "2": "bis", "2T": "bis", "2B": "bis", "3": "bis" },
-      { "name": "Bosnian", "local": "Bosanski", "1": "bs", "2": "bos", "2T": "bos", "2B": "bos", "3": "bos" },
-      { "name": "Breton", "local": "Brezhoneg", "1": "br", "2": "bre", "2T": "bre", "2B": "bre", "3": "bre" },
-      { "name": "Bulgarian", "local": "\u0411\u044A\u043B\u0433\u0430\u0440\u0441\u043A\u0438", "1": "bg", "2": "bul", "2T": "bul", "2B": "bul", "3": "bul" },
-      { "name": "Burmese", "local": "\u1019\u103C\u1014\u103A\u1019\u102C\u1018\u102C\u101E\u102C", "1": "my", "2": "mya", "2T": "mya", "2B": "bur", "3": "mya" },
-      { "name": "Catalan", "local": "Catal\xE0", "1": "ca", "2": "cat", "2T": "cat", "2B": "cat", "3": "cat" },
-      { "name": "Chamorro", "local": "Chamoru", "1": "ch", "2": "cha", "2T": "cha", "2B": "cha", "3": "cha" },
-      { "name": "Chechen", "local": "\u041D\u043E\u0445\u0447\u0438\u0439\u043D", "1": "ce", "2": "che", "2T": "che", "2B": "che", "3": "che" },
-      { "name": "Chichewa", "local": "Chichewa", "1": "ny", "2": "nya", "2T": "nya", "2B": "nya", "3": "nya" },
-      { "name": "Chinese", "local": "\u4E2D\u6587", "1": "zh", "2": "zho", "2T": "zho", "2B": "chi", "3": "zho" },
-      { "name": "Mandarin Chinese", "local": "\u666E\u901A\u8BDD", "1": "zh", "2": "zho", "2T": "zho", "2B": "chi", "3": "cmn" },
-      { "name": "Chuvash", "local": "\u0427\u04D1\u0432\u0430\u0448\u043B\u0430", "1": "cv", "2": "chv", "2T": "chv", "2B": "chv", "3": "chv" },
-      { "name": "Cornish", "local": "Kernewek", "1": "kw", "2": "cor", "2T": "cor", "2B": "cor", "3": "cor" },
-      { "name": "Corsican", "local": "Corsu", "1": "co", "2": "cos", "2T": "cos", "2B": "cos", "3": "cos" },
-      { "name": "Cree", "local": "\u14C0\u1426\u1403\u152D\u140D\u140F\u1423", "1": "cr", "2": "cre", "2T": "cre", "2B": "cre", "3": "cre" },
-      { "name": "Croatian", "local": "Hrvatski", "1": "hr", "2": "hrv", "2T": "hrv", "2B": "hrv", "3": "hrv" },
-      { "name": "Czech", "local": "\u010Ce\u0161tina", "1": "cs", "2": "ces", "2T": "ces", "2B": "cze", "3": "ces" },
-      { "name": "Danish", "local": "Dansk", "1": "da", "2": "dan", "2T": "dan", "2B": "dan", "3": "dan" },
-      { "name": "Divehi", "local": "Divehi", "1": "dv", "2": "div", "2T": "div", "2B": "div", "3": "div" },
-      { "name": "Dutch", "local": "Nederlands", "1": "nl", "2": "nld", "2T": "nld", "2B": "dut", "3": "nld" },
-      { "name": "Dzongkha", "local": "\u0F62\u0FAB\u0F7C\u0F44\u0F0B\u0F41", "1": "dz", "2": "dzo", "2T": "dzo", "2B": "dzo", "3": "dzo" },
-      { "name": "English", "local": "English", "1": "en", "2": "eng", "2T": "eng", "2B": "eng", "3": "eng" },
-      { "name": "Esperanto", "local": "Esperanto", "1": "eo", "2": "epo", "2T": "epo", "2B": "epo", "3": "epo" },
-      { "name": "Estonian", "local": "Eesti", "1": "et", "2": "est", "2T": "est", "2B": "est", "3": "est" },
-      { "name": "Ewe", "local": "E\u028Begbe", "1": "ee", "2": "ewe", "2T": "ewe", "2B": "ewe", "3": "ewe" },
-      { "name": "Faroese", "local": "F\xF8royskt", "1": "fo", "2": "fao", "2T": "fao", "2B": "fao", "3": "fao" },
-      { "name": "Fijian", "local": "Na Vosa Vaka-Viti", "1": "fj", "2": "fij", "2T": "fij", "2B": "fij", "3": "fij" },
-      { "name": "Finnish", "local": "Suomi", "1": "fi", "2": "fin", "2T": "fin", "2B": "fin", "3": "fin" },
-      { "name": "French", "local": "Fran\xE7ais", "1": "fr", "2": "fra", "2T": "fra", "2B": "fre", "3": "fra" },
-      { "name": "Fula", "local": "Fulfulde", "1": "ff", "2": "ful", "2T": "ful", "2B": "ful", "3": "ful" },
-      { "name": "Galician", "local": "Galego", "1": "gl", "2": "glg", "2T": "glg", "2B": "glg", "3": "glg" },
-      { "name": "Georgian", "local": "\u10E5\u10D0\u10E0\u10D7\u10E3\u10DA\u10D8", "1": "ka", "2": "kat", "2T": "kat", "2B": "geo", "3": "kat" },
-      { "name": "German", "local": "Deutsch", "1": "de", "2": "deu", "2T": "deu", "2B": "ger", "3": "deu" },
-      { "name": "Greek", "local": "\u0395\u03BB\u03BB\u03B7\u03BD\u03B9\u03BA\u03AC", "1": "el", "2": "ell", "2T": "ell", "2B": "gre", "3": "ell" },
-      { "name": "Guaran\xED", "local": "Ava\xF1e'\u1EBD", "1": "gn", "2": "grn", "2T": "grn", "2B": "grn", "3": "grn" },
-      { "name": "Gujarati", "local": "\u0A97\u0AC1\u0A9C\u0AB0\u0ABE\u0AA4\u0AC0", "1": "gu", "2": "guj", "2T": "guj", "2B": "guj", "3": "guj" },
-      { "name": "Haitian", "local": "Krey\xF2l Ayisyen", "1": "ht", "2": "hat", "2T": "hat", "2B": "hat", "3": "hat" },
-      { "name": "Hausa", "local": "\u0647\u064E\u0648\u064F\u0633\u064E", "1": "ha", "2": "hau", "2T": "hau", "2B": "hau", "3": "hau" },
-      { "name": "Hebrew", "local": "\u05E2\u05D1\u05E8\u05D9\u05EA", "1": "he", "2": "heb", "2T": "heb", "2B": "heb", "3": "heb" },
-      { "name": "Herero", "local": "Otjiherero", "1": "hz", "2": "her", "2T": "her", "2B": "her", "3": "her" },
-      { "name": "Hindi", "local": "\u0939\u093F\u0928\u094D\u0926\u0940", "1": "hi", "2": "hin", "2T": "hin", "2B": "hin", "3": "hin" },
-      { "name": "Hiri Motu", "local": "Hiri Motu", "1": "ho", "2": "hmo", "2T": "hmo", "2B": "hmo", "3": "hmo" },
-      { "name": "Hungarian", "local": "Magyar", "1": "hu", "2": "hun", "2T": "hun", "2B": "hun", "3": "hun" },
-      { "name": "Interlingua", "local": "Interlingua", "1": "ia", "2": "ina", "2T": "ina", "2B": "ina", "3": "ina" },
-      { "name": "Indonesian", "local": "Bahasa Indonesia", "1": "id", "2": "ind", "2T": "ind", "2B": "ind", "3": "ind" },
-      { "name": "Interlingue", "local": "Interlingue", "1": "ie", "2": "ile", "2T": "ile", "2B": "ile", "3": "ile" },
-      { "name": "Irish", "local": "Gaeilge", "1": "ga", "2": "gle", "2T": "gle", "2B": "gle", "3": "gle" },
-      { "name": "Igbo", "local": "Igbo", "1": "ig", "2": "ibo", "2T": "ibo", "2B": "ibo", "3": "ibo" },
-      { "name": "Inupiaq", "local": "I\xF1upiak", "1": "ik", "2": "ipk", "2T": "ipk", "2B": "ipk", "3": "ipk" },
-      { "name": "Ido", "local": "Ido", "1": "io", "2": "ido", "2T": "ido", "2B": "ido", "3": "ido" },
-      { "name": "Icelandic", "local": "\xCDslenska", "1": "is", "2": "isl", "2T": "isl", "2B": "ice", "3": "isl" },
-      { "name": "Italian", "local": "Italiano", "1": "it", "2": "ita", "2T": "ita", "2B": "ita", "3": "ita" },
-      { "name": "Inuktitut", "local": "\u1403\u14C4\u1483\u144E\u1450\u1466", "1": "iu", "2": "iku", "2T": "iku", "2B": "iku", "3": "iku" },
-      { "name": "Japanese", "local": "\u65E5\u672C\u8A9E", "1": "ja", "2": "jpn", "2T": "jpn", "2B": "jpn", "3": "jpn" },
-      { "name": "Javanese", "local": "Basa Jawa", "1": "jv", "2": "jav", "2T": "jav", "2B": "jav", "3": "jav" },
-      { "name": "Kalaallisut", "local": "Kalaallisut", "1": "kl", "2": "kal", "2T": "kal", "2B": "kal", "3": "kal" },
-      { "name": "Kannada", "local": "\u0C95\u0CA8\u0CCD\u0CA8\u0CA1", "1": "kn", "2": "kan", "2T": "kan", "2B": "kan", "3": "kan" },
-      { "name": "Kanuri", "local": "Kanuri", "1": "kr", "2": "kau", "2T": "kau", "2B": "kau", "3": "kau" },
-      { "name": "Kashmiri", "local": "\u0643\u0634\u0645\u064A\u0631\u064A", "1": "ks", "2": "kas", "2T": "kas", "2B": "kas", "3": "kas" },
-      { "name": "Kazakh", "local": "\u049A\u0430\u0437\u0430\u049B\u0448\u0430", "1": "kk", "2": "kaz", "2T": "kaz", "2B": "kaz", "3": "kaz" },
-      { "name": "Khmer", "local": "\u1797\u17B6\u179F\u17B6\u1781\u17D2\u1798\u17C2\u179A", "1": "km", "2": "khm", "2T": "khm", "2B": "khm", "3": "khm" },
-      { "name": "Kikuyu", "local": "G\u0129k\u0169y\u0169", "1": "ki", "2": "kik", "2T": "kik", "2B": "kik", "3": "kik" },
-      { "name": "Kinyarwanda", "local": "Kinyarwanda", "1": "rw", "2": "kin", "2T": "kin", "2B": "kin", "3": "kin" },
-      { "name": "Kyrgyz", "local": "\u041A\u044B\u0440\u0433\u044B\u0437\u0447\u0430", "1": "ky", "2": "kir", "2T": "kir", "2B": "kir", "3": "kir" },
-      { "name": "Komi", "local": "\u041A\u043E\u043C\u0438", "1": "kv", "2": "kom", "2T": "kom", "2B": "kom", "3": "kom" },
-      { "name": "Kongo", "local": "Kongo", "1": "kg", "2": "kon", "2T": "kon", "2B": "kon", "3": "kon" },
-      { "name": "Korean", "local": "\uD55C\uAD6D\uC5B4", "1": "ko", "2": "kor", "2T": "kor", "2B": "kor", "3": "kor" },
-      { "name": "Kurdish", "local": "Kurd\xEE", "1": "ku", "2": "kur", "2T": "kur", "2B": "kur", "3": "kur" },
-      { "name": "Kwanyama", "local": "Kuanyama", "1": "kj", "2": "kua", "2T": "kua", "2B": "kua", "3": "kua" },
-      { "name": "Latin", "local": "Latina", "1": "la", "2": "lat", "2T": "lat", "2B": "lat", "3": "lat" },
-      { "name": "Luxembourgish", "local": "L\xEBtzebuergesch", "1": "lb", "2": "ltz", "2T": "ltz", "2B": "ltz", "3": "ltz" },
-      { "name": "Ganda", "local": "Luganda", "1": "lg", "2": "lug", "2T": "lug", "2B": "lug", "3": "lug" },
-      { "name": "Limburgish", "local": "Limburgs", "1": "li", "2": "lim", "2T": "lim", "2B": "lim", "3": "lim" },
-      { "name": "Lingala", "local": "Ling\xE1la", "1": "ln", "2": "lin", "2T": "lin", "2B": "lin", "3": "lin" },
-      { "name": "Lao", "local": "\u0E9E\u0EB2\u0EAA\u0EB2\u0EA5\u0EB2\u0EA7", "1": "lo", "2": "lao", "2T": "lao", "2B": "lao", "3": "lao" },
-      { "name": "Lithuanian", "local": "Lietuvi\u0173", "1": "lt", "2": "lit", "2T": "lit", "2B": "lit", "3": "lit" },
-      { "name": "Luba-Katanga", "local": "Tshiluba", "1": "lu", "2": "lub", "2T": "lub", "2B": "lub", "3": "lub" },
-      { "name": "Latvian", "local": "Latvie\u0161u", "1": "lv", "2": "lav", "2T": "lav", "2B": "lav", "3": "lav" },
-      { "name": "Manx", "local": "Gaelg", "1": "gv", "2": "glv", "2T": "glv", "2B": "glv", "3": "glv" },
-      { "name": "Macedonian", "local": "\u041C\u0430\u043A\u0435\u0434\u043E\u043D\u0441\u043A\u0438", "1": "mk", "2": "mkd", "2T": "mkd", "2B": "mac", "3": "mkd" },
-      { "name": "Malagasy", "local": "Malagasy", "1": "mg", "2": "mlg", "2T": "mlg", "2B": "mlg", "3": "mlg" },
-      { "name": "Malay", "local": "Bahasa Melayu", "1": "ms", "2": "msa", "2T": "msa", "2B": "may", "3": "msa" },
-      { "name": "Malayalam", "local": "\u0D2E\u0D32\u0D2F\u0D3E\u0D33\u0D02", "1": "ml", "2": "mal", "2T": "mal", "2B": "mal", "3": "mal" },
-      { "name": "Maltese", "local": "Malti", "1": "mt", "2": "mlt", "2T": "mlt", "2B": "mlt", "3": "mlt" },
-      { "name": "M\u0101ori", "local": "M\u0101ori", "1": "mi", "2": "mri", "2T": "mri", "2B": "mao", "3": "mri" },
-      { "name": "Marathi", "local": "\u092E\u0930\u093E\u0920\u0940", "1": "mr", "2": "mar", "2T": "mar", "2B": "mar", "3": "mar" },
-      { "name": "Marshallese", "local": "Kajin M\u0327aje\u013C", "1": "mh", "2": "mah", "2T": "mah", "2B": "mah", "3": "mah" },
-      { "name": "Mongolian", "local": "\u041C\u043E\u043D\u0433\u043E\u043B", "1": "mn", "2": "mon", "2T": "mon", "2B": "mon", "3": "mon" },
-      { "name": "Nauru", "local": "Dorerin Naoero", "1": "na", "2": "nau", "2T": "nau", "2B": "nau", "3": "nau" },
-      { "name": "Navajo", "local": "Din\xE9 Bizaad", "1": "nv", "2": "nav", "2T": "nav", "2B": "nav", "3": "nav" },
-      { "name": "Northern Ndebele", "local": "isiNdebele", "1": "nd", "2": "nde", "2T": "nde", "2B": "nde", "3": "nde" },
-      { "name": "Nepali", "local": "\u0928\u0947\u092A\u093E\u0932\u0940", "1": "ne", "2": "nep", "2T": "nep", "2B": "nep", "3": "nep" },
-      { "name": "Ndonga", "local": "Owambo", "1": "ng", "2": "ndo", "2T": "ndo", "2B": "ndo", "3": "ndo" },
-      { "name": "Norwegian Bokm\xE5l", "local": "Norsk (Bokm\xE5l)", "1": "nb", "2": "nob", "2T": "nob", "2B": "nob", "3": "nob" },
-      { "name": "Norwegian Nynorsk", "local": "Norsk (Nynorsk)", "1": "nn", "2": "nno", "2T": "nno", "2B": "nno", "3": "nno" },
-      { "name": "Norwegian", "local": "Norsk", "1": "no", "2": "nor", "2T": "nor", "2B": "nor", "3": "nor" },
-      { "name": "Nuosu", "local": "\uA188\uA320\uA4BF Nuosuhxop", "1": "ii", "2": "iii", "2T": "iii", "2B": "iii", "3": "iii" },
-      { "name": "Southern Ndebele", "local": "isiNdebele", "1": "nr", "2": "nbl", "2T": "nbl", "2B": "nbl", "3": "nbl" },
-      { "name": "Occitan", "local": "Occitan", "1": "oc", "2": "oci", "2T": "oci", "2B": "oci", "3": "oci" },
-      { "name": "Ojibwe", "local": "\u140A\u14C2\u1511\u14C8\u142F\u14A7\u140E\u14D0", "1": "oj", "2": "oji", "2T": "oji", "2B": "oji", "3": "oji" },
-      { "name": "Old Church Slavonic", "local": "\u0421\u043B\u043E\u0432\u0463\u0301\u043D\u044C\u0441\u043A\u044A", "1": "cu", "2": "chu", "2T": "chu", "2B": "chu", "3": "chu" },
-      { "name": "Oromo", "local": "Afaan Oromoo", "1": "om", "2": "orm", "2T": "orm", "2B": "orm", "3": "orm" },
-      { "name": "Oriya", "local": "\u0B13\u0B21\u0B3F\u0B3C\u0B06", "1": "or", "2": "ori", "2T": "ori", "2B": "ori", "3": "ori" },
-      { "name": "Ossetian", "local": "\u0418\u0440\u043E\u043D \xE6\u0432\u0437\u0430\u0433", "1": "os", "2": "oss", "2T": "oss", "2B": "oss", "3": "oss" },
-      { "name": "Panjabi", "local": "\u0A2A\u0A70\u0A1C\u0A3E\u0A2C\u0A40", "1": "pa", "2": "pan", "2T": "pan", "2B": "pan", "3": "pan" },
-      { "name": "P\u0101li", "local": "\u092A\u093E\u0934\u093F", "1": "pi", "2": "pli", "2T": "pli", "2B": "pli", "3": "pli" },
-      { "name": "Persian", "local": "\u0641\u0627\u0631\u0633\u06CC", "1": "fa", "2": "fas", "2T": "fas", "2B": "per", "3": "fas" },
-      { "name": "Polish", "local": "Polski", "1": "pl", "2": "pol", "2T": "pol", "2B": "pol", "3": "pol" },
-      { "name": "Pashto", "local": "\u067E\u069A\u062A\u0648", "1": "ps", "2": "pus", "2T": "pus", "2B": "pus", "3": "pus" },
-      { "name": "Portuguese", "local": "Portugu\xEAs", "1": "pt", "2": "por", "2T": "por", "2B": "por", "3": "por" },
-      { "name": "Quechua", "local": "Runa Simi", "1": "qu", "2": "que", "2T": "que", "2B": "que", "3": "que" },
-      { "name": "Romansh", "local": "Rumantsch", "1": "rm", "2": "roh", "2T": "roh", "2B": "roh", "3": "roh" },
-      { "name": "Kirundi", "local": "Kirundi", "1": "rn", "2": "run", "2T": "run", "2B": "run", "3": "run" },
-      { "name": "Romanian", "local": "Rom\xE2n\u0103", "1": "ro", "2": "ron", "2T": "ron", "2B": "rum", "3": "ron" },
-      { "name": "Russian", "local": "\u0420\u0443\u0441\u0441\u043A\u0438\u0439", "1": "ru", "2": "rus", "2T": "rus", "2B": "rus", "3": "rus" },
-      { "name": "Sanskrit", "local": "\u0938\u0902\u0938\u094D\u0915\u0943\u0924\u092E\u094D", "1": "sa", "2": "san", "2T": "san", "2B": "san", "3": "san" },
-      { "name": "Sardinian", "local": "Sardu", "1": "sc", "2": "srd", "2T": "srd", "2B": "srd", "3": "srd" },
-      { "name": "Sindhi", "local": "\u0633\u0646\u068C\u064A\u200E", "1": "sd", "2": "snd", "2T": "snd", "2B": "snd", "3": "snd" },
-      { "name": "Northern Sami", "local": "S\xE1megiella", "1": "se", "2": "sme", "2T": "sme", "2B": "sme", "3": "sme" },
-      { "name": "Samoan", "local": "Gagana S\u0101moa", "1": "sm", "2": "smo", "2T": "smo", "2B": "smo", "3": "smo" },
-      { "name": "Sango", "local": "S\xE4ng\xF6", "1": "sg", "2": "sag", "2T": "sag", "2B": "sag", "3": "sag" },
-      { "name": "Serbian", "local": "\u0421\u0440\u043F\u0441\u043A\u0438", "1": "sr", "2": "srp", "2T": "srp", "2B": "srp", "3": "srp" },
-      { "name": "Gaelic", "local": "G\xE0idhlig", "1": "gd", "2": "gla", "2T": "gla", "2B": "gla", "3": "gla" },
-      { "name": "Shona", "local": "ChiShona", "1": "sn", "2": "sna", "2T": "sna", "2B": "sna", "3": "sna" },
-      { "name": "Sinhala", "local": "\u0DC3\u0DD2\u0D82\u0DC4\u0DBD", "1": "si", "2": "sin", "2T": "sin", "2B": "sin", "3": "sin" },
-      { "name": "Slovak", "local": "Sloven\u010Dina", "1": "sk", "2": "slk", "2T": "slk", "2B": "slo", "3": "slk" },
-      { "name": "Slovene", "local": "Sloven\u0161\u010Dina", "1": "sl", "2": "slv", "2T": "slv", "2B": "slv", "3": "slv" },
-      { "name": "Somali", "local": "Soomaaliga", "1": "so", "2": "som", "2T": "som", "2B": "som", "3": "som" },
-      { "name": "Southern Sotho", "local": "Sesotho", "1": "st", "2": "sot", "2T": "sot", "2B": "sot", "3": "sot" },
-      { "name": "Spanish", "local": "Espa\xF1ol", "1": "es", "2": "spa", "2T": "spa", "2B": "spa", "3": "spa" },
-      { "name": "Sundanese", "local": "Basa Sunda", "1": "su", "2": "sun", "2T": "sun", "2B": "sun", "3": "sun" },
-      { "name": "Swahili", "local": "Kiswahili", "1": "sw", "2": "swa", "2T": "swa", "2B": "swa", "3": "swa" },
-      { "name": "Swati", "local": "SiSwati", "1": "ss", "2": "ssw", "2T": "ssw", "2B": "ssw", "3": "ssw" },
-      { "name": "Swedish", "local": "Svenska", "1": "sv", "2": "swe", "2T": "swe", "2B": "swe", "3": "swe" },
-      { "name": "Tamil", "local": "\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD", "1": "ta", "2": "tam", "2T": "tam", "2B": "tam", "3": "tam" },
-      { "name": "Telugu", "local": "\u0C24\u0C46\u0C32\u0C41\u0C17\u0C41", "1": "te", "2": "tel", "2T": "tel", "2B": "tel", "3": "tel" },
-      { "name": "Tajik", "local": "\u0422\u043E\u04B7\u0438\u043A\u04E3", "1": "tg", "2": "tgk", "2T": "tgk", "2B": "tgk", "3": "tgk" },
-      { "name": "Thai", "local": "\u0E20\u0E32\u0E29\u0E32\u0E44\u0E17\u0E22", "1": "th", "2": "tha", "2T": "tha", "2B": "tha", "3": "tha" },
-      { "name": "Tigrinya", "local": "\u1275\u130D\u122D\u129B", "1": "ti", "2": "tir", "2T": "tir", "2B": "tir", "3": "tir" },
-      { "name": "Tibetan Standard", "local": "\u0F56\u0F7C\u0F51\u0F0B\u0F61\u0F72\u0F42", "1": "bo", "2": "bod", "2T": "bod", "2B": "tib", "3": "bod" },
-      { "name": "Turkmen", "local": "T\xFCrkmen\xE7e", "1": "tk", "2": "tuk", "2T": "tuk", "2B": "tuk", "3": "tuk" },
-      { "name": "Tagalog", "local": "Tagalog", "1": "tl", "2": "tgl", "2T": "tgl", "2B": "tgl", "3": "tgl" },
-      { "name": "Tswana", "local": "Setswana", "1": "tn", "2": "tsn", "2T": "tsn", "2B": "tsn", "3": "tsn" },
-      { "name": "Tonga", "local": "faka Tonga", "1": "to", "2": "ton", "2T": "ton", "2B": "ton", "3": "ton" },
-      { "name": "Turkish", "local": "T\xFCrk\xE7e", "1": "tr", "2": "tur", "2T": "tur", "2B": "tur", "3": "tur" },
-      { "name": "Tsonga", "local": "Xitsonga", "1": "ts", "2": "tso", "2T": "tso", "2B": "tso", "3": "tso" },
-      { "name": "Tatar", "local": "\u0422\u0430\u0442\u0430\u0440\u0447\u0430", "1": "tt", "2": "tat", "2T": "tat", "2B": "tat", "3": "tat" },
-      { "name": "Twi", "local": "Twi", "1": "tw", "2": "twi", "2T": "twi", "2B": "twi", "3": "twi" },
-      { "name": "Tahitian", "local": "Reo M\u0101\u2019ohi", "1": "ty", "2": "tah", "2T": "tah", "2B": "tah", "3": "tah" },
-      { "name": "Uyghur", "local": "\u0626\u06C7\u064A\u063A\u06C7\u0631\u0686\u0647", "1": "ug", "2": "uig", "2T": "uig", "2B": "uig", "3": "uig" },
-      { "name": "Ukrainian", "local": "\u0423\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u0430", "1": "uk", "2": "ukr", "2T": "ukr", "2B": "ukr", "3": "ukr" },
-      { "name": "Urdu", "local": "\u0627\u0631\u062F\u0648", "1": "ur", "2": "urd", "2T": "urd", "2B": "urd", "3": "urd" },
-      { "name": "Uzbek", "local": "O\u2018zbek", "1": "uz", "2": "uzb", "2T": "uzb", "2B": "uzb", "3": "uzb" },
-      { "name": "Venda", "local": "Tshiven\u1E13a", "1": "ve", "2": "ven", "2T": "ven", "2B": "ven", "3": "ven" },
-      { "name": "Vietnamese", "local": "Ti\u1EBFng Vi\u1EC7t", "1": "vi", "2": "vie", "2T": "vie", "2B": "vie", "3": "vie" },
-      { "name": "Volap\xFCk", "local": "Volap\xFCk", "1": "vo", "2": "vol", "2T": "vol", "2B": "vol", "3": "vol" },
-      { "name": "Walloon", "local": "Walon", "1": "wa", "2": "wln", "2T": "wln", "2B": "wln", "3": "wln" },
-      { "name": "Welsh", "local": "Cymraeg", "1": "cy", "2": "cym", "2T": "cym", "2B": "wel", "3": "cym" },
-      { "name": "Wolof", "local": "Wolof", "1": "wo", "2": "wol", "2T": "wol", "2B": "wol", "3": "wol" },
-      { "name": "Western Frisian", "local": "Frysk", "1": "fy", "2": "fry", "2T": "fry", "2B": "fry", "3": "fry" },
-      { "name": "Xhosa", "local": "isiXhosa", "1": "xh", "2": "xho", "2T": "xho", "2B": "xho", "3": "xho" },
-      { "name": "Yiddish", "local": "\u05D9\u05D9\u05B4\u05D3\u05D9\u05E9", "1": "yi", "2": "yid", "2T": "yid", "2B": "yid", "3": "yid" },
-      { "name": "Yoruba", "local": "Yor\xF9b\xE1", "1": "yo", "2": "yor", "2T": "yor", "2B": "yor", "3": "yor" },
-      { "name": "Zhuang", "local": "Cuengh", "1": "za", "2": "zha", "2T": "zha", "2B": "zha", "3": "zha" },
-      { "name": "Zulu", "local": "isiZulu", "1": "zu", "2": "zul", "2T": "zul", "2B": "zul", "3": "zul" }
-    ];
-  }
-});
-
-// node_modules/.pnpm/github.com+CaoMeiYouRen+nodejs-langs@1b33191d719ecc58e7a48699639ad24d5b774b66_b6j45bnv2hyo7453y67xdi3qbq/node_modules/langs/index.js
-var require_langs = __commonJS({
-  "node_modules/.pnpm/github.com+CaoMeiYouRen+nodejs-langs@1b33191d719ecc58e7a48699639ad24d5b774b66_b6j45bnv2hyo7453y67xdi3qbq/node_modules/langs/index.js"(exports2, module2) {
-    "use strict";
-    var data = require_data2();
-    var langs2 = {
-      all: allLanguages,
-      has: hasLanguage,
-      codes: getCodes,
-      names: getNames,
-      where: findBy
-    };
-    module2.exports = langs2;
-    function allLanguages() {
-      return data;
-    }
-    function hasLanguage(crit, val) {
-      return void 0 !== findBy(crit, val);
-    }
-    function getCodes(type) {
-      if (isValidType(type)) {
-        return forAll(data, function getCodesIterator(row) {
-          return row[type];
-        });
-      }
-    }
-    function getNames(local) {
-      return forAll(data, function getNamesIterator(row) {
-        return local ? row.local : row.name;
-      });
-    }
-    function findBy(crit, val) {
-      for (var i = 0; i < data.length; i++) {
-        if (val === data[i][crit]) {
-          return data[i];
-        }
-      }
-    }
-    function forAll(arr, fn) {
-      var out = [], i;
-      for (i = 0; i < arr.length; i++) {
-        out.push(fn(arr[i], i));
-      }
-      return out;
-    }
-    function isValidType(type) {
-      var types = [1, 2, 3, "1", "2", "2B", "2T", "3"];
-      return -1 !== types.indexOf(type);
-    }
-  }
-});
-
 // src/main.ts
 var core9 = __toESM(require_core());
 var github12 = __toESM(require_github());
@@ -32680,11 +32434,9 @@ function isTargetLanguage(body, language = "eng") {
 // src/utils/translate.ts
 var core4 = __toESM(require_core());
 var import_google_translate_api = __toESM(require_src5());
-var import_langs = __toESM(require_langs());
-async function translate(text, language = "eng") {
+async function translate(text, language = "en") {
   try {
-    const to = import_langs.default.where("3", language)?.["1"];
-    const resp = await (0, import_google_translate_api.default)(text, { to });
+    const resp = await (0, import_google_translate_api.default)(text, { to: language });
     return resp.text !== text ? resp.text : "";
   } catch (err) {
     core4.error(err);
@@ -33049,6 +32801,7 @@ async function main() {
   const shouldAppendContent = core9.getInput("APPEND_TRANSLATION");
   const botNote = core9.getInput("CUSTOM_BOT_NOTE")?.trim() || DEFAULT_BOT_MESSAGE;
   const targetLanguage = core9.getInput("TARGET_LANGUAGE") || "eng";
+  const translatedLanguage = core9.getInput("TRANSLATED_LANGUAGE") || "en";
   const botToken = DEFAULT_BOT_TOKEN;
   if (!botToken) {
     return core9.info(`GITHUB_TOKEN is requried!`);
@@ -33073,7 +32826,7 @@ async function main() {
     return;
   }
   core9.info(`translate origin body is: ${translateOrigin}`);
-  const translateTmp = await translate(translateOrigin, targetLanguage);
+  const translateTmp = await translate(translateOrigin, translatedLanguage);
   if (!translateTmp || translateTmp === translateOrigin) {
     return core9.warning("The translateBody is null or same, ignore return.");
   }
