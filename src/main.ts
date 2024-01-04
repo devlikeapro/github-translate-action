@@ -49,7 +49,7 @@ async function main(): Promise<void> {
   core.info(`translate origin body is: ${translateOrigin}`)
 
   // translate issue comment body to english
-  const translateTmp = await translate(translateOrigin, translatedLanguage)
+  const translateTmp = (await translate(translateOrigin, translatedLanguage))?.trim()
   if (!translateTmp || translateTmp === translateOrigin) {
     return core.warning('The translateBody is null or same, ignore return.')
   }
@@ -66,7 +66,7 @@ async function main(): Promise<void> {
     const body =
       translateComment &&
       originComment !== translateComment &&
-      `${originComment}
+      `${originComment?.trim()}
 ${TRANSLATE_DIVIDING_LINE}
 ---
 ${translateComment}

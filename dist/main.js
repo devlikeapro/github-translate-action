@@ -32826,7 +32826,7 @@ async function main() {
     return;
   }
   core9.info(`translate origin body is: ${translateOrigin}`);
-  const translateTmp = await translate(translateOrigin, translatedLanguage);
+  const translateTmp = (await translate(translateOrigin, translatedLanguage))?.trim();
   if (!translateTmp || translateTmp === translateOrigin) {
     return core9.warning("The translateBody is null or same, ignore return.");
   }
@@ -32834,7 +32834,7 @@ async function main() {
   let [translateComment, translateTitle] = translateText.parse(translateTmp);
   if (shouldAppendContent) {
     const title2 = translateTitle && originTitle !== translateTitle && [originTitle, translateTitle].join(TRANSLATE_TITLE_DIVING);
-    const body2 = translateComment && originComment !== translateComment && `${originComment}
+    const body2 = translateComment && originComment !== translateComment && `${originComment?.trim()}
 ${TRANSLATE_DIVIDING_LINE}
 ---
 ${translateComment}
