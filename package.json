@@ -5,10 +5,11 @@
   "description": "The action for translating Non-English issues content to English.",
   "main": "dist/main.js",
   "scripts": {
+    "prebuild": "rimraf dist",
     "build": "tsup",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
-    "lint": "eslint src/**/*.ts",
+    "lint": "cross-env NODE_ENV=production eslint src --fix --ext .ts,.js",
     "test": "jest",
     "all": "npm run format && npm run build"
   },
@@ -42,18 +43,22 @@
     "@types/jest": "^26.0.10",
     "@types/langs": "^2.0.4",
     "@types/node": "^14.10.0",
-    "@typescript-eslint/parser": "^3.10.1",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
     "@vercel/ncc": "^0.38.1",
-    "eslint": "^7.8.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.56.0",
+    "eslint-config-cmyr": "^1.1.30",
     "eslint-plugin-github": "^4.1.1",
     "eslint-plugin-jest": "^23.20.0",
     "jest": "^24.9.0",
     "jest-circus": "^26.4.2",
     "js-yaml": "^3.14.0",
     "prettier": "2.1.1",
+    "rimraf": "^5.0.5",
     "ts-jest": "^24.3.0",
     "tsup": "^8.0.1",
-    "typescript": "^4.0.2"
+    "typescript": "^5.3.3"
   },
   "overrides": {
     "@octokit/plugin-rest-endpoint-methods": "4.2.1"
