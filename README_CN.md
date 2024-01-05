@@ -3,7 +3,7 @@
 
 [En](./README.md) | 中文
 
-将非英文的 GitHub issue 和 GitHub discussion 自动翻译成英文的 GitHub Action。
+将非目标语言 GitHub issue 和 GitHub discussion 自动翻译为目标语言的 GitHub Action。
 
 ## 配置项
 
@@ -12,6 +12,8 @@
 - `IS_MODIFY_TITLE`: 是否翻译标题，默认为否。默认是直接修改标题，在 `APPEND_TRANSLATION` 为真的情况下会在原始标题后追加翻译结果。
 - `APPEND_TRANSLATION`: 是否追加翻译内容，默认为否。该 Action 默认会将翻译内容以新回复的形式追加到 issue/discussion 中。当该项为真时，则是修改原始内容追加翻译结果，这样不产生通知不打扰用户。
 - `CUSTOM_BOT_NOTE`: 在 `APPEND_TRANSLATION` 为假时，翻译内容会增加一段机器翻译描述标记，你可以自定义这段描述内容。
+- `TARGET_LANGUAGE`: 目标语言将被翻译成其他所有语言。请使用 ISO 639-3 的语言代码。请参阅[wooorm/frank](https://github.com/wooorm/franc)。
+- `TRANSLATED_LANGUAGE`:  翻译后的语言，请参考[tomsun28/google-translate-api](https://github.com/tomsun28/google-translate-api/blob/master/src/languages.js)。
 
 ## 使用示例
 
@@ -42,6 +44,8 @@ jobs:
         with:
           IS_MODIFY_TITLE: true
           APPEND_TRANSLATION: true
+          TARGET_LANGUAGE: cmn
+          TRANSLATED_LANGUAGE: zh-cn
 ````
 
 ## 鸣谢
@@ -54,4 +58,8 @@ jobs:
 - 重构项目拆分代码
 
 几乎相当于一个新的项目了，所以没有考虑将修改合并到上游而是作为独立项目使用。
+
+草梅友仁的改动：
+
+- 增加了自定义输出语言的功能
 

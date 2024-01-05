@@ -1,9 +1,10 @@
 ![](./assets/logo.svg)
-# GitHub Translate Action
+
+# Custom GitHub Translate Action
 
 En | [中文](./README_CN.md)
 
-A GitHub Action to translate non-English GitHub issues and GitHub discussions into English automatically.
+A GitHub Action to translate non Target Language GitHub issues and GitHub discussions into Target Language automatically.
 
 ## Input variables
 
@@ -12,6 +13,8 @@ See [action.yml](./action.yml) for more details.
 - `IS_MODIFY_TITLE`: whether to translate the title, the default is no. The default is to directly modify the title. When `APPEND_TRANSLATION` is true, the translation result will be appended to the original title.
 - `APPEND_TRANSLATION`: whether to append translation content, the default is no. By default, this Action will append the translated content as a new reply to the issue/discussion. When this item is true, the original content is modified and the translation result is appended, so that no notification is generated and the user is not disturbed.
 - `CUSTOM_BOT_NOTE`: When `APPEND_TRANSLATION` is false, a machine translation description tag will be added to the translated content, and you can customize this description.
+- `TARGET_LANGUAGE`: The target language to be translated into, all other languages will be translated. Please use the Language Code of ISO 639-3. Please refer to [wooorm/franc](https://github.com/wooorm/franc).
+- `TRANSLATED_LANGUAGE`: "Translated language, please refer to [google-translate-api](https://github.com/tomsun28/google-translate-api/blob/master/src/languages.js)
 
 ## Usage
 
@@ -46,6 +49,8 @@ jobs:
         with:
           IS_MODIFY_TITLE: true
           APPEND_TRANSLATION: true
+          TARGET_LANGUAGE: eng
+          TRANSLATED_LANGUAGE: en
 ````
 
 ## Thanks
