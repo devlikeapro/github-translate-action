@@ -3,7 +3,7 @@ import * as github from '@actions/github'
 
 interface UpdateDiscussionParams {
     discussion_number: number
-    body?: string
+    body: string
     octokit: ReturnType<typeof github.getOctokit>
 }
 
@@ -12,7 +12,7 @@ export async function createDiscussionComment({
     body,
     octokit,
 }: UpdateDiscussionParams) {
-    const mutation = `mutation($discussionId: ID!, $body: String) {
+    const mutation = `mutation($discussionId: ID!, $body: String!) {
     addDiscussionComment(input: {discussionId: $discussionId, body: $body}) {
       comment {
         body
