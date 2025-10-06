@@ -15171,7 +15171,7 @@ async function createIssueComment({
   if (!number) {
     return;
   }
-  await octokit.rest.issues.createComment({
+  await octokit.issues.createComment({
     owner,
     repo,
     issue_number: number,
@@ -15307,9 +15307,9 @@ async function updateIssue({
   const { owner, repo } = github4.context.repo;
   if (issue_number) {
     if (comment_id && body) {
-      await octokit.rest.issues.updateComment({ owner, repo, comment_id, body });
+      await octokit.issues.updateComment({ owner, repo, comment_id, body });
     } else if (title || body) {
-      await octokit.rest.issues.update({ owner, repo, issue_number, title, body });
+      await octokit.issues.update({ owner, repo, issue_number, title, body });
     }
   }
   const url = github4.context.payload.issue?.html_url;
@@ -15481,7 +15481,7 @@ var pull_request_default = {
     if (!pull_request?.number) {
       return;
     }
-    await octokit.rest.pulls.update({
+    await octokit.pulls.update({
       owner,
       repo,
       pull_number: pull_request?.number,
@@ -15530,7 +15530,7 @@ var pull_request_review_comment_default = {
     if (!pull_request?.number || !comment || !comment?.id || !body || body === "null") {
       return;
     }
-    await octokit.rest.pulls.updateReviewComment({
+    await octokit.pulls.updateReviewComment({
       owner,
       repo,
       comment_id: comment.id,
