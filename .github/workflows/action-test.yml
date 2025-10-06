@@ -4,14 +4,10 @@ on:
     types: [opened]
   issue_comment:
     types: [created]
-  # discussion:
-  #   types: [created, edited]
-  # discussion_comment:
-  #   types: [created, edited]
-  # pull_request_target:
-  #   types: [opened, edited]
-  # pull_request_review_comment:
-  #   types: [created, edited]
+  discussion:
+    types: [created]
+  discussion_comment:
+    types: [created]
 
 jobs:
   en:
