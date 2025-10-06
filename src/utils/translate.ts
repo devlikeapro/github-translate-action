@@ -1,5 +1,5 @@
 import * as core from '@actions/core'
-import GoogleTranslate from '@tomsun28/google-translate-api'
+import GoogleTranslate from '@iamtraction/google-translate'
 import { isTargetLanguage } from './isTargetLanguage'
 
 /**
