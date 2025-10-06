@@ -15216,9 +15216,7 @@ var translateText = {
       return [void 0, void 0];
     }
     const translateBody = text.split(MAGIC_JOIN_STRING);
-    const [bodyPart, ...rest] = translateBody;
-    const titlePart = rest.length ? rest.join(MAGIC_JOIN_STRING) : void 0;
-    return [bodyPart?.trim(), titlePart?.trim()];
+    return [translateBody?.[0]?.trim(), translateBody[1]?.trim()];
   },
   stringify(body, title, language = "eng") {
     const needCommitComment = body && body !== "null" && !isTargetLanguage(body, language);
