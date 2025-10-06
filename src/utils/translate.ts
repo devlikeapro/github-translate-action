@@ -22,7 +22,7 @@ export async function translate(
     }
 }
 
-const MAGIC_JOIN_STRING = '@@===='
+const MAGIC_JOIN_STRING = '@@@@@@'
 export const translateText = {
     parse(text?: string) {
         if (!text) {
