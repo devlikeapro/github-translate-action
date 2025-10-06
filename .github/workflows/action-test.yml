@@ -28,6 +28,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           IS_MODIFY_TITLE: true
-          APPEND_TRANSLATION: true
+          APPEND_TRANSLATION: false
           TARGET_LANGUAGE: "cmn"
           TRANSLATED_LANGUAGE: "zh-cn"
