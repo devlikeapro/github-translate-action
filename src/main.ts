@@ -117,7 +117,12 @@ async function run() {
     try {
         await main()
     } catch (err: any) {
-        core.setFailed(err.message)
+        if (err?.stack) {
+            core.error(err.stack)
+        } else {
+            core.error(String(err))
+        }
+        core.setFailed(err?.message ?? 'Unknown error occurred')
     }
 }
 
