@@ -30,10 +30,7 @@ export const translateText = {
         }
 
         const translateBody: string[] = text.split(MAGIC_JOIN_STRING)
-        const [bodyPart, ...rest] = translateBody
-        const titlePart = rest.length ? rest.join(MAGIC_JOIN_STRING) : undefined
-
-        return [bodyPart?.trim(), titlePart?.trim()]
+        return [translateBody?.[0]?.trim(), translateBody[1]?.trim()]
     },
     stringify(body?: string, title?: string, language = 'eng') {
         const needCommitComment =
