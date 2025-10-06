@@ -14,7 +14,7 @@ on:
   #   types: [created, edited]
 
 jobs:
-  test: # make sure the action works on a clean machine without building
+  en:
     permissions:
       issues: write
       discussions: write
@@ -28,5 +28,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           IS_MODIFY_TITLE: true
-          TARGET_LANGUAGE: "cmn"
-          TRANSLATED_LANGUAGE: "zh-cn"
+          CUSTOM_BOT_NOTE: "English"
+          TARGET_LANGUAGE: "eng"
+          TRANSLATED_LANGUAGE: "en"
+
+  pt:
+    permissions:
+      issues: write
+      discussions: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./
+        env:
+          # GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          IS_MODIFY_TITLE: true
+          CUSTOM_BOT_NOTE: "Portuguese"
+          TARGET_LANGUAGE: "por"
+          TRANSLATED_LANGUAGE: "pt"
