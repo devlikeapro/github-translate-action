@@ -37,7 +37,7 @@ export default {
             return
         }
 
-        await octokit.rest.pulls.updateReviewComment({
+        await octokit.pulls.updateReviewComment({
             owner,
             repo,
             comment_id: comment.id,

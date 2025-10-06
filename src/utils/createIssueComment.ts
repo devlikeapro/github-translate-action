@@ -30,7 +30,7 @@ export async function createIssueComment({
     if (!number) {
         return
     }
-    await octokit.rest.issues.createComment({
+    await octokit.issues.createComment({
         owner,
         repo,
         issue_number: number,

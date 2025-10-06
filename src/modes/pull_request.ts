@@ -31,7 +31,7 @@ export default {
         if (!pull_request?.number) {
             return
         }
-        await octokit.rest.pulls.update({
+        await octokit.pulls.update({
             owner,
             repo,
             pull_number: pull_request?.number,

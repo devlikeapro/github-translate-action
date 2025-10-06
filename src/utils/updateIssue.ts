@@ -33,9 +33,9 @@ export async function updateIssue({
 
     if (issue_number) {
         if (comment_id && body) {
-            await octokit.rest.issues.updateComment({ owner, repo, comment_id, body })
+            await octokit.issues.updateComment({ owner, repo, comment_id, body })
         } else if (title || body) {
-            await octokit.rest.issues.update({ owner, repo, issue_number, title, body })
+            await octokit.issues.update({ owner, repo, issue_number, title, body })
         }
     }
 
