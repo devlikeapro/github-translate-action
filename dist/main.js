@@ -15209,7 +15209,7 @@ async function translate(text, language = "en") {
     core4.setFailed(err.message);
   }
 }
-var MAGIC_JOIN_STRING = "@@====";
+var MAGIC_JOIN_STRING = "@@@@@@";
 var translateText = {
   parse(text) {
     if (!text) {
